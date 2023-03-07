@@ -2,7 +2,8 @@
 
 ## Description
 Creates a random password based on the user's criteria utilizing prompts given to the user.
-Screenshot:
+Screenshot: ![image](https://user-images.githubusercontent.com/122832005/223554295-fd959782-f551-4546-b2ab-814327e1325b.png)
+
 
 ## Table of Contents
 - [Installation](#installation)
