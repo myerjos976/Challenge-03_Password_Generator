@@ -23,7 +23,7 @@ The password must be between 8 and 128 characters (inclusive).
 The site will generate a unique and randomized password and displays to the user for their own personal use.
 
 ## Credits
-Starter code by edX Boot Camp LLC.
+Starter code by edX Boot Camp LLC.  
 Refactored Code: Joshua Myers, U of U Bootcamp
 
 ## License
