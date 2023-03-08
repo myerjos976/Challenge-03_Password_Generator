@@ -19,6 +19,7 @@ Link to deployed webpage: https://myersjos967.github.io/Challenge-03_Password_Ge
 ## Usage
 This site allows the user to create a randomized password based on the user's criteria.
 First the user clicks "generate password" and then answers the prompts for the criteria they want.
+The password must be between 8 and 128 characters (inclusive).
 The site will generate a unique and randomized password and displays to the user for their own personal use.
 
 ## Credits
