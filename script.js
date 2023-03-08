@@ -27,9 +27,9 @@ function generatePassword()
   let passwordLength = 0;
   
   //Makes sure password is length of 1 or longer.
-  while (passwordLength < 1) 
+  while ((passwordLength < 8) || (128 < passwordLength)) 
   {
-    passwordLength = prompt("Enter a password length of 1 or larger.");
+    passwordLength = prompt("Enter a password between 8 and 128 characters.");
   }
 
   //Confirms user's password criteria and puts them in criteria array.
@@ -54,7 +54,7 @@ function generatePassword()
   }
 
   //Checks if at least one criteria is met.
-  if ((passwordLength >= 1) && (useLC === true || useUC === true || useNum === true || useSC === true))
+  if ((passwordLength >= 8) && (passwordLength <= 128) && (useLC === true || useUC === true || useNum === true || useSC === true))
   {
     let randomCharType;
     let randomChar;
