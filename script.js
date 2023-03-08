@@ -26,7 +26,7 @@ function generatePassword()
   
   let passwordLength = 0;
   
-  //Makes sure password is length of 1 or longer.
+  //Makes sure password is between 8 and 128 characters.
   while ((passwordLength < 8) || (128 < passwordLength)) 
   {
     passwordLength = prompt("Enter a password between 8 and 128 characters.");
