@@ -14,7 +14,7 @@ Creates a random password based on the user's criteria utilizing prompts given t
 - [License](#license)
 
 ## Installation
-Link to deployed webpage: https://myersjos967.github.io/Challenge-03_Password_Generator/
+Link to deployed webpage: https://myersjos967.github.io/Password_Generator/
 
 ## Usage
 This site allows the user to create a randomized password based on the user's criteria.
